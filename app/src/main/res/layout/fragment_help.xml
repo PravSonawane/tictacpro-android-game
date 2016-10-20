@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/activityBackgroundColor"
+              tools:context=".ui.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_title_id"
+                style="@style/HelpPageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                tools:text="@string/fragment_help_title"
+                android:text="@string/fragment_help_title"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_subtitle_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_help_txtVw_title_id"
+                android:layout_centerHorizontal="true"
+                tools:text="@string/fragment_help_subtitle"
+                android:text="@string/fragment_help_subtitle"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_overview_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_subtitle_id"
+                android:layout_marginTop="16dp"
+                tools:text="Overview"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_overviewSection_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_overview_id"
+                android:text="@string/fragment_help_overview"
+                tools:text="@string/fragment_help_overview"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_aim_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_overviewSection_id"
+                android:layout_marginTop="16dp"
+                tools:text="Aim"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_aimSection_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_aim_id"
+                android:text="@string/fragment_help_aim"
+                tools:text="@string/fragment_help_aim"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_gamePlay_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_aimSection_id"
+                android:layout_marginTop="16dp"
+                tools:text="Game play"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_gamePlaySection_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_gamePlay_id"
+                android:text="@string/fragment_help_gamePlay"
+                tools:text="@string/fragment_help_gamePlay"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficulty_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_gamePlaySection_id"
+                android:layout_marginTop="16dp"
+                tools:text="Difficulties"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficultySection_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficulty_id"
+                android:text="@string/fragment_help_difficulties"
+                tools:text="@string/fragment_help_difficulties"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficulty1_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficultySection_id"
+                android:layout_marginTop="16dp"
+                tools:text="Child's play"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficultySection1_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficulty1_id"
+                android:text="@string/fragment_help_difficulty_1"
+                tools:text="@string/fragment_help_difficulty_1"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficulty2_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficultySection1_id"
+                android:layout_marginTop="16dp"
+                tools:text="Child's play"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficultySection2_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficulty2_id"
+                android:text="@string/fragment_help_difficulty_2"
+                tools:text="@string/fragment_help_difficulty_2"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficulty3_id"
+                style="@style/HelpSectionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficultySection2_id"
+                android:layout_marginTop="16dp"
+                tools:text="Child's play"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_difficultySection3_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/fragment_help_txtVw_difficulty3_id"
+                android:text="@string/fragment_help_difficulty_3"
+                tools:text="@string/fragment_help_difficulty_3"/>
+
+            <TextView
+                android:id="@+id/fragment_help_txtVw_finalComment_id"
+                style="@style/HelpSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/fragment_help_txtVw_difficultySection3_id"
+                android:text="@string/fragment_help_finalComment"
+                tools:text="@string/fragment_help_finalComment"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

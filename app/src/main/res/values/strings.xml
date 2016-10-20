@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tic Tac Pro</string>
+
+    <!-- activity_main -->
+    <string name="activity_main_txtVw_level">Level:</string>
+    <string name="activity_main_txtVw_moves">Moves:</string>
+    <string name="activity_main_txtVw_best">Best:</string>
+    <string name="activity_main_txtVw_score_text">0</string>
+    <string name="activity_main_remaining_time_text">1:00:0</string>
+    <string name="activity_main_to_play_text">To play</string>
+
+    <!-- fragment_dlg_difficulty.xml -->
+    <string name="fragment_dlg_difficulty_title_text">Choose your battle</string>
+    <string name="fragment_dlg_difficulty_positiveBtn_text">Bring it on</string>
+    <string name="fragment_dlg_difficulty_negativeBtn_text">Cancel</string>
+
+    <!-- fragment_dlg_gameover.xml -->
+    <string name="fragment_dlg_gameOver_title_text">Game over</string>
+    <string name="fragment_dlg_gameOver_positiveBtn_text">Main Menu</string>
+
+    <!-- fragment_help.xml -->
+    <string name="fragment_help_overview">This game is about how fast your brain can process visual information given to it and take a decision.
+        Now isn\'t that cool!</string>
+    <string name="fragment_help_aim">Find the best move for the token shown above the game board (To Play) using normal Tic Tac Toe rules
+        (i.e. arrange three of a kind in a row, column or diagonal).</string>
+    <string name="fragment_help_gamePlay">You are shown a random tic tac toe board with some squares marked with tokens.
+        You task is to find the best move for the token mentioned above the board. For every correct move, your score increases by 1.
+        You are given 60 seconds to score as high as possible. Additional time is awarded or a time penalty is applied based
+        on your accuracy. The sound feedback tells you if your move was correct or not before the board changes to a new board. Read on to know more!</string>
+    <string name="fragment_help_difficulties">There are three difficulty modes viz. Child\'s play, I can do this and Are you kidding?</string>
+    <string name="fragment_help_difficulty_1">In this difficulty, the next move to play is always X. A bonus time of 5 seconds is awarded
+        if you get 8 moves correct in a row. There is no time penalty for incorrect moves. A minimum score of 30 is required to unlock the next difficulty.</string>
+    <string name="fragment_help_difficulty_2">In this difficulty, the next move to play is always O. A bonus time of 4 seconds is awarded
+        if you get 8 moves correct in a row. There is no time penalty for incorrect moves. A minimum score of 50 is required to unlock the next difficulty</string>
+    <string name="fragment_help_difficulty_3">In this difficulty, the next move to play can be X or O. A bonus time of 3 seconds is awarded
+        if you get 8 moves correct in a row. There is a time penalty of 1 second for every incorrect move.
+        A minimum score of 70 is required to complete the game. From here on, its just how much you can score. Go ahead! Give it a try!</string>
+    <string name="fragment_help_finalComment">Have fun!</string>
+    <string name="fragment_help_title">Tic Tac Pro</string>
+    <string name="fragment_help_subtitle">The hardest Tic Tac Toe game ever!</string>
+</resources>

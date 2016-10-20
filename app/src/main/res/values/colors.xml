@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- TokenView.java colors -->
+    <color name="xColor">#ff6e1f</color>
+    <color name="oColor">#ae54bf</color>
+    <color name="emptyBackgroundColor">#E3F2FD</color>
+
+    <!-- activity_main.xml -->
+    <color name="activityBackgroundColor">#333333</color>
+    <color name="activity_main_remainingTime_textColor">#d9cca9</color>
+    <color name="activity_main_label_textColor">#d9cca9</color>
+    <color name="boardBackgroundColor">#5e5c50</color>
+    <color name="boardStrokeColor">#d9cca9</color>
+    <color name="playButtonColor">#d9cca9</color>
+
+    <!-- item_difficulty.xml -->
+    <color name="item_difficulty_diffultyType_textColor">#d9cca9</color>
+    <color name="item_difficulty_diffultyDesc_textColor">#d9cca9</color>
+
+    <!-- custom_title_text_view.xml -->
+    <color name="dialog_title_textColor">#d9cca9</color>
+
+    <!-- fragment_dlg_gameover.xml -->
+    <color name="gameOver_title_textColor">#d9cca9</color>
+
+    <!-- 12% opacity light background divider color -->
+    <color name="dividerColorLightBackground">#d9cca9</color>
+
+    <!-- fragment_help.xml -->
+    <color name="fragment_help_textColor">#d9cca9</color>
+</resources>

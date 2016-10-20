@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/activity_main_grdVw_puzzle_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="2"
+        app:rowCount="2"
+        app:orientation="horizontal"
+        app:alignmentMode="alignBounds">
+
+        <TextView
+            android:id="@+id/fragment_dlg_gameover_txtVw_score_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            app:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            style="@style/GameOverTitle"/>
+        <TextView
+            android:id="@+id/fragment_dlg_gameover_txtVw_score_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_rowSpan="1"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            tools:text="24"
+            app:layout_gravity="center_horizontal"
+            style="@style/GameOverTitle"/>
+        <TextView
+            android:id="@+id/fragment_dlg_gameover_txtVw_difficulty_label_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Difficulty"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            style="@style/GameOverTitle"/>
+        <TextView
+            android:id="@+id/fragment_dlg_gameover_txtVw_difficulty_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:text="Child's play"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="center_horizontal"
+            style="@style/GameOverTitle"/>
+
+    </android.support.v7.widget.GridLayout>
+</RelativeLayout>

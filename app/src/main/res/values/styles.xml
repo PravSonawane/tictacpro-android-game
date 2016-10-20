@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RemainingTime">
+        <item name="android:textSize">@dimen/activity_main_remainingTime_textSize</item>
+        <item name="android:textColor">@color/activity_main_remainingTime_textColor</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:textSize">@dimen/activity_main_label_textSize</item>
+        <item name="android:textColor">@color/activity_main_label_textColor</item>
+    </style>
+
+    <style name="DifficultyType">
+        <item name="android:textSize">@dimen/item_difficulty_diffultyType_textSize</item>
+        <item name="android:textColor">@color/item_difficulty_diffultyType_textColor</item>
+    </style>
+
+    <style name="DifficultyDesc">
+        <item name="android:textSize">@dimen/item_difficulty_diffultyDesc_textSize</item>
+        <item name="android:textColor">@color/item_difficulty_diffultyDesc_textColor</item>
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:textSize">@dimen/dialog_title_textSize</item>
+        <item name="android:textColor">@color/dialog_title_textColor</item>
+    </style>
+
+    <style name="GameOverTitle">
+        <item name="android:textSize">@dimen/gameOver_title_textSize</item>
+        <item name="android:textColor">@color/gameOver_title_textColor</item>
+    </style>
+
+    <!-- fragment_help.xml -->
+    <style name="HelpPageTitle">
+        <item name="android:textSize">@dimen/fragment_help_title_textSize</item>
+        <item name="android:textColor">@color/fragment_help_textColor</item>
+    </style>
+
+    <style name="HelpSectionTitle">
+        <item name="android:textSize">@dimen/fragment_help_section_title_textSize</item>
+        <item name="android:textColor">@color/fragment_help_textColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HelpSection">
+        <item name="android:textSize">@dimen/fragment_help_section_textSize</item>
+        <item name="android:textColor">@color/fragment_help_textColor</item>
+    </style>
+
+</resources>
